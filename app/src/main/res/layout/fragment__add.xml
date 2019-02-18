@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    tools:context="norbury.englishv101.Fragment_Add">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ark"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:id="@+id/English"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Turkce"
+        android:layout_marginTop="106dp">
+
+        <EditText
+            android:id="@+id/etdEng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="English"
+            android:inputType="text|textPersonName"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/White"
+            android:textColorHighlight="@color/Colorblue"
+            android:textColorHint="@color/SoftWhite"
+            android:theme="@style/MyEditTextTheme" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/Turkce"
+        android:layout_below="@+id/English"
+        android:layout_centerHorizontal="true">
+
+
+        <EditText
+            android:id="@+id/etdTr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Türkçe"
+            android:inputType="text|textPersonName"
+            android:selectAllOnFocus="true"
+            android:textColor="@color/White"
+            android:textColorHighlight="@color/colorAccent"
+
+            android:textColorHint="@color/SoftWhite"
+            android:theme="@style/MyEditTextTheme" />
+
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="230dp"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:id="@+id/Pro"
+       android:layout_centerHorizontal="true"
+       android:layout_below="@+id/Turkce">
+
+       <EditText
+           android:id="@+id/etdPro"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:theme="@style/MyEditTextTheme"
+           android:textColor="@color/White"
+           android:textColorHighlight="@color/colorAccent"
+           android:textColorHint="@color/SoftWhite"
+           android:inputType="text|textPersonName"
+           android:selectAllOnFocus="true"
+           android:hint="Pronunciation"
+
+
+           />
+
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/Comment"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Pro">
+
+        <EditText
+            android:id="@+id/etdCom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/White"
+            android:textColorHighlight="@color/colorAccent"
+            android:textColorHint="@color/SoftWhite"
+            android:inputType="text|textPersonName"
+            android:selectAllOnFocus="true"
+            android:hint="Comment"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:textColor="@color/ColorYazı"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/add"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Comment"
+        android:layout_marginEnd="16dp" />
+
+
+</RelativeLayout>

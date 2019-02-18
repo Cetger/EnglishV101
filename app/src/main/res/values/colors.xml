@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00738c</color>
+    <color name="colorPrimaryDark">#9f926e</color>
+    <color name="colorAccent">#466874</color>
+    <color name="Head">#02bcfa</color>
+    <color name="TransParent">#83ffffff</color>
+
+    <color name="SoftWhite">#efdedddd</color>
+    <color name="White">#f7f7e2</color>
+
+    <color name="Colorblue">#0f74b4</color>
+    <color name="ColorYazı">#5d5d5d</color>
+    <color name="ColorWhite">#f4f2f3</color>
+    <color name="Tra">#9f926e</color>
+
+
+</resources>
