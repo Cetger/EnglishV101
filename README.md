@@ -6,7 +6,7 @@ Vocabulary Apps(SQLite Version)
 <img src="https://user-images.githubusercontent.com/31896026/52930066-47189a00-3347-11e9-9deb-47491c6aeeb2.jpg" width="200" height="400" />
 
 
-*i used this program to learn polish, so you see english to polish words.
+i used this program to learn polish, so you see english to polish words.
 
 # Test
 <img src="https://user-images.githubusercontent.com/31896026/52930067-47189a00-3347-11e9-9183-0d4e5fbba14a.jpg" width="200" height="400" />
